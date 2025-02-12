@@ -12,7 +12,7 @@ CREATE TABLE Worker (
     JOINING_DATE DATETIME,
     DEPARTMENT CHAR(25)
 );
-
+--Anirudh Srivastava original
 -- Data Insertion
 INSERT INTO Worker (WORKER_ID, FIRST_NAME, LAST_NAME, SALARY, JOINING_DATE, DEPARTMENT) VALUES
     (001, 'Monika', 'Arora', 100000, '2014-02-20 09:00:00', 'HR'),
